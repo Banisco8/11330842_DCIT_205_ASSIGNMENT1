@@ -1,0 +1,103 @@
+main{
+  min-height: 70vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Roboto:wght@500;700&display=swap');
+;
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Poopins";
+ 
+
+}
+
+*{
+  box-sizing: border-box;
+
+}
+
+
+
+form{
+  display: block;
+  background-color: white;
+  box-shadow: 1px 1px 3px 2px #ddd;
+  margin: 40px auto;
+  max-width: 1000px;
+  max-height: 700px;
+  padding: 25px 40px;
+  margin-top: 200px;
+}
+
+form input, textarea{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px auto;
+  padding: 8px;
+  font-family: "Poppins";
+  background-color: #f1f1f1;
+  border: 1px solid rgb(104, 104, 211);
+
+}
+
+form h1{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+form button{
+  height: 30px;
+  width: 80px;
+  align-items: center;
+  border: none;
+  background-color: rgb(29, 185, 237);
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/*:root{
+  --font-family:"Poppins",
+  sans serif;
+  --dark-blue: #0a1930;
+  --light-blue: #1f93ff;
+
+
+  --color-white: #fff;
+  --color-dark: #333;
+
+  --color-grey: #eee;
+  --box-shadow:0 5px 15px
+  rgba(0,0,0 0.1);
+
+  --color-purple: #9d0191;
+  --color-orange: #ff7722;
+
+  --color-primary: #9d0191;
+  --color-orange: #ff7722;
+
+
+  --color-primary: #007bff;
+  --color-success: #28a745;
+  --color-danger: orangered;
+
+  --light-grey: #f3f4f6;
+  --color-text: #6d7c90;
+  --white: #fff;
+  --grey: #eee;
+
+
+}*/

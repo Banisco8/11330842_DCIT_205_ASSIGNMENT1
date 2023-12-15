@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+}
+
+.page{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-image: url('https://hips.hearstapps.com/hmg-prod/images/berry-college-historic-campus-at-twilight-royalty-free-image-1652127954.jpg?crop=1.00xw:0.752xh;0.00160xw,0.120xh&resize=1200:*');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.cover{
+  background-color: white;
+  width: 25em;
+  height: 35em;
+  position:fixed;
+  border-radius: 1em;
+  box-shadow: 0 0.188em 1.550em rgb(156,156,156);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2em;
+  padding-top: -1000px;
+}
+
+input{
+  border: none;
+  background-color: rgb(229,226,226);
+  height: 4em;
+  width: 60%;
+  border-radius: 0.25em;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+.cover h1{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+input:focus{
+  outline-color: rgb(32,177,255);
+}
+
+.login-btn{
+  width: 30%;
+  height: 3em;
+  background-color:  rgb(32,177,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 6em;
+  cursor:pointer;
+  border: none;
+  margin-bottom: 0px;
+  color: rgb(68, 68, 68);
+}
+
+.login-btn:hover{ transform: scale(1.10);}
+
+.text{
+position: relative;
+bottom: -2em;
+}
